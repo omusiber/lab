@@ -1,1 +1,15 @@
 site_name: My Docs
+theme: readthedocs
+nav:
+- "ANASAYFA": index.md
+- "Kurulum - Altyapı Dokümanları":
+    - 'Altyapı Hakkında': 'altyapi.md'
+- "Kullanım Kılavuzları":
+    - 'VPN Hesabı Oluşturma': 'vpn.md'
+markdown_extensions:
+  - extra
+  - smarty
+  - toc:
+      permalink: True
+  - sane_lists
+  - footnotes
